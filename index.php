@@ -2,6 +2,7 @@
 session_start();
 ob_start();
 
+// hello
 include "dao/pdo.php";
 include "dao/user.php";
 include "dao/bill.php";
