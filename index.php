@@ -92,7 +92,7 @@ if (!isset($_GET['pg'])) {
 
             include "view/cart.php";
             break;
-            case 'order':
+            case 'order':fknfefkenfk
                 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['new_status'])) {
                     $bill_id = $_POST['bill_id'];
                     $new_status = $_POST['new_status'];
