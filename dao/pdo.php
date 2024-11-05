@@ -5,10 +5,10 @@
  */
 
  class Database {
-    private $servername = "localhost:3307";
+    private $servername = "localhost:3306";
     private $username = "root";
     private $password = "";
-    private $dbname = "yam";
+    private $dbname = "DUAN1";
     private $conn;
     private $stmt;
 
@@ -29,7 +29,7 @@
 
 
 function pdo_get_connection(){
-    $dburl = "mysql:host=localhost;dbname=yam;charset=utf8";
+    $dburl = "mysql:host=localhost;dbname=DUAN1;charset=utf8";
     $username = 'root';
     $password = '';
 
