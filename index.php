@@ -10,7 +10,7 @@ include "dao/check.php";
 include "dao/danhmuc.php";
 include "dao/sanpham.php";
 include "dao/giohang.php";
-include "view/header.php";
+include "view/header.php"; // hoai ngu
 //thuong
 $is_user_logged_in = is_user_logged_in();
 $dssp_new = get_dssp_new(4);
