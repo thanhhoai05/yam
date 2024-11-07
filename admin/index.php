@@ -2,6 +2,7 @@
 session_start();
 ob_start();
 
+
 include "../dao/pdo.php";
 include "../dao/danhmuc.php";
 include "../dao/user.php";
